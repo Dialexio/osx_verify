@@ -110,7 +110,7 @@ examples:
         --store 'Install OS X El Capitan.10.11.2.app.json' \\
         --description 'Install OS X El Capitan.10.11.2.app'
 """)
-parser.add_argument('-s', '--scan', help="scan file or directory to be stored or campared", metavar="<app-bundle>")
+parser.add_argument('-s', '--scan', help="scan file or directory to be stored or compared", metavar="<app-bundle>")
 parser.add_argument('-l', '--load', help="load previously stored scan for comparison", metavar="<json-file>")
 parser.add_argument('-i', '--ignore', action='append', default=['Contents/_MASReceipt/*'],
 	help="ignore wildcard pattern, e.g. '*.txt' (can be used more than once)", metavar="<file-pattern>")
